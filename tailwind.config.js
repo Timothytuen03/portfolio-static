@@ -3,7 +3,10 @@ module.exports = {
   content: ["./dist/*.{html,js}"
 ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+      }
+    },
   },
   plugins: [
   ],
