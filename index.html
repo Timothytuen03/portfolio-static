@@ -6,7 +6,7 @@
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="./dist/output.css">
 </head>
-<body class="min-h-screen font-montserrat" style="background-image: linear-gradient( to bottom right, #727a7a, #2C3333)">
+<body class="min-h-screen font-montserrat " style="background-image: linear-gradient( to bottom right, #727a7a, #2C3333)">
     <!-- <h1 class="bg-red-400">Hello</h1> -->
     <header>
         <nav class="">
@@ -19,13 +19,16 @@
                     <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
                         <!-- bg-gray-50 md:bg-white dark:bg-gray-800 md:dark:bg-gray-800 dark:border-gray-700 -->
                         <li>
-                            <a href="#" class="block rounded md:bg-transparent" style="color: #CBE4DE;" aria-current="page">About Me</a>
+                            <a href="#" class="block rounded md:bg-transparent" style="color: #CBE4DE;">Home</a>
                         </li>
                         <li>
-                            <a href="/dist/projects.html" class="block  rounded md:bg-transparent" style="color: #CBE4DE;">Projects</a>
+                            <a href="/dist/about.html" class="block rounded md:bg-transparent" style="color: #CBE4DE;">About Me</a>
                         </li>
                         <li>
-                            <a href="dist/education.html" class="block  rounded md:bg-transparent" style="color: #CBE4DE;">Education</a>
+                            <a href="/dist/projects.html" class="block rounded md:bg-transparent" style="color: #CBE4DE;" aria-current="page">Projects</a>
+                        </li>
+                        <li>
+                            <a href="/dist/education.html" class="block  rounded md:bg-transparent" style="color: #CBE4DE;">Education</a>
                         </li>
                     </ul>
                 </div>
@@ -37,10 +40,10 @@
         <div class="text-center flex flex-col justify-between items-center mt-10">
             <h1 class="md:text-7xl text-5xl mb-6 ml-4 mr-4" style="color: #CBE4DE;">Hello, My name is <span class="font-bold underline" style="color: #139ea3;">Timothy Tuen</span></h1>
             <p class="text-xl  mb-4 ml-4 mr-4" style="color: #CBE4DE;">I'm a Computer Science and Business Analytics/Information Technology student at Rutgers University - New Brunswick</p>
-            <div class="grid grid-cols-2 mt-10 mb-10 h-full p-5 w-11/12 border-solid border-white border-2" style="background-color: #2E4F4F;">
+            <div class="hidden md:grid grid-cols-2 mt-10 mb-10 h-full p-5 w-11/12 border-solid border-white border-2" style="background-color: #2E4F4F;">
 
                 <div class="w-8/12 h-auto place-self-center p-5" >
-                    <img class="h-full w-full opacity-80" src="dist/img/IMG_1080.JPG" alt="Timothy Tuen">
+                    <img class="h-full w-full opacity-80" src="./dist/img/IMG_1080.JPG" alt="Timothy Tuen">
                 </div>
 
                 <div class="text-center place-self-center md:w-3/5 w-4/5">
@@ -68,7 +71,36 @@
                         </div>
                     </div>
                 </div>
+                
 
+            </div>
+            <div class="md:hidden flex flex-col border-solid border-white border-2 mb-5" style="background-color: #2E4F4F;">
+                <div class="w-8/12 h-auto place-self-center p-5" >
+                    <img class="h-full w-full opacity-80" src="./dist/img/IMG_1080.JPG" alt="Timothy Tuen">
+                </div>
+                <h1 class=" md:text-6xl sm:text-4xl text-xl " style="color: #CBE4DE;">Contact Me!</h1>
+                <div class="flex flex-col content-center mr-10 ml-10 pb-3">
+                    <div class="flex  md:text-xl text-sm justify-between mt-8" style="color: #CBE4DE;">
+                        <p class="pr-4">Location</p>
+                        <p class="pl-4">Monroe, New Jersey</p>
+                    </div>
+                    <div class="flex md:text-xl text-sm justify-between mt-8" style="color: #CBE4DE;">
+                        <p class="pr-4">Email</p>
+                        <p class="pl-4">timothytuen45@gmail.com</p>
+                    </div>
+                    <div class="flex md:text-xl text-sm justify-between mt-8 " style="color: #CBE4DE;">
+                        <p class="pr-4">Mobile</p>
+                        <p class="pl-4">+1 (732) 672-7245</p>
+                    </div>
+                    <div class="flex  md:text-xl text-sm justify-between mt-8" style="color: #CBE4DE;">
+                        <p class="">Github</p>
+                        <p class="transition rounded hover:bg-white"><a href="https://github.com/Timothytuen03" target="_blank">Timothytuen03</a></p>
+                    </div>
+                    <div class="flex  md:text-xl text-sm justify-between mt-8 " style="color: #CBE4DE;">
+                        <p class="">Linkedin</p>
+                        <p class="rounded hover:bg-white"><a href="https://linkedin.com/in/timothy-tuen" target="_blank">Timothy-Tuen</a></p>
+                    </div>
+                </div>
             </div>
         </div>
 
