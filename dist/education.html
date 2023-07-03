@@ -37,7 +37,7 @@
 
     <div style="color: #CBE4DE;">
         <h1 class="text-4xl underline text-center">My Educational Background</h1>
-        <div class="grid grid-cols-2 grid-rows-3 m-10 gap-5 leading-10 border-solid border-2  text-sm" id="education-background">
+        <div class=" hidden sm:grid grid-cols-2 grid-rows-3 m-10 gap-5 leading-10 border-solid border-2  text-sm" id="education-background">
             <!-- Degree Info Start -->
             <div class="row-start-1 col-start-1 self-center pl-5" id="my-degree">
                 <h1 class="text-center">My Degree</h1>
@@ -138,6 +138,102 @@
                 <img src="./img/IMG_5898 Small.jpeg" alt="RUDM" class="w-auto h-5/6 m-auto self-center">
             </div>
             <!-- Involvement/Clubs End -->
+        </div>
+
+        <div class="sm:hidden flex flex-col">
+
+            <div class="mt-8" id="my-degree">
+                <h1 class="text-center pb-2 underline">My Degree</h1>
+                <ul class="flex flex-col text-sm">
+                    <li class="inline-flex justify-between">
+                        <p>Institute</p>
+                        <p>Rutgers Business School - New Brunswick</p>
+                    </li>
+                    <li class="inline-flex justify-between">
+                        <p>Degree Type</p>
+                        <p>Bachelors</p>
+                    </li>
+                    <li class="inline-flex justify-between">
+                        <p>Majors</p>
+                        <p> Comp. Sci. & BAIT (Business Analytics/IT)</p>
+                    </li>
+                    <li class="inline-flex justify-between">
+                        <p>GPA</p>
+                        <p>3.948 / 4.0</p>
+                    </li>
+                    <li class="inline-flex justify-between">
+                        <p>Anticipated Grad. Date</p>
+                        <p>May 2025 (Curr. Junior)</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="self-center mt-8" id="relevant-courses">
+                <h1 class="text-center pb-2 underline">Relevant Courses</h1>
+                <ul class="flex flex-col text-center text-sm">
+                    <li class="self-center pb-2">
+                        <button id="ds" class="relCourse">Data Structures (Java, OOP, VSCode) - Final Grade: A</button>
+                        <div id="ds_classMobile" class="hidden max-w-md text-center rounded-lg shadow-sm" style="background-color: #2E4F4F;">
+                            <p class="px-3">Learned the uses of various Data Structures, such as BST, Heap, Stack, etc. using the Java language</p>
+                        </div>
+                        <!-- <button data-dropdown-toggle="ds_course">Data Structures (Java, OOP, VSCode) - Final Grade: A</button>
+                        <div id="ds_course">
+                            <p class="px-1">Learned the uses of various Data Structures, such as BST, Heap, Stack, etc. using the Java language</p>
+                        </div> -->
+                    </li>
+                    <li class="self-center pb-1">
+                        <button id="ca" class="relCourse">Computer Architecture (C, Linux/Unix, Assembly, Binary, Memory) - Final Grade: A</button>
+                        <div id="ca_classMobile" class="hidden max-w-md text-center rounded-lg shadow-sm m-auto" style="background-color: #2E4F4F;">
+                            <p class="px-3">Implemented projects using the C programmng language. Learned and utilized bit manipulation, binary, caches, and memory. Also used Assembly (Bomb Lab Assignment) and Digital Logic</p>
+                        </div>
+                    </li>
+                    <li class="self-center pb-1">
+                        <button id="algos" class="relCourse">Design & Analysis of Computer Algorithms - Currently Taking</button>
+                        <div id="algos_classMobile" class="hidden max-w-md text-center rounded-lg shadow-sm" style="background-color: #2E4F4F;">
+                            <p class="px-3">Learn and Analyze useful algorithms, finding how they work, their uses, principles, and complexity</p>
+                        </div>
+                    </li>
+                    <li class="self-center pb-1">
+                        <button id="prinprog" class="relCourse">Principles of Programming Languages - Currently Taking</button>
+                        <div id="prinprog_classMobile" class="hidden max-w-md text-center rounded-lg shadow-sm" style="background-color: #2E4F4F;">
+                            <p class="px-3">The study of common concepts familiar to programming languages, such as language paradigms such as logic, OOP, functional programming, etc.</p>
+                        </div>
+                    </li>
+                    <li class="self-center pb-1">
+                        <button id="sm" class="relCourse">Statistical Methods (Excel) - Final Grade: A</button>
+                        <div id="sm_classMobile" class="hidden max-w-md text-center rounded-lg shadow-sm" style="background-color: #2E4F4F;">
+                            <p class="px-3">Apply quantitative modeling techniques to data in order to construct and analyze statistical models. Includes variances, regression, etc.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mt-8 mb-6" id="involvement">
+                <h1 class="text-center pb-2 underline">My Involvement</h1>
+                    <ul class="flex flex-col text-sm">
+                        <li class="inline-flex justify-between">
+                            <p class="text-left">Business Information Technology Society</p>
+                            <p class="text-right">Web Development Team Member</p>
+                        </li>
+                        <li class="inline-flex justify-between">
+                            <p class="text-left">Rutgers Dance Marathon</p>
+                            <p class="text-right">Assistant Director of Finance</p>
+                        </li>
+                        <li class="inline-flex justify-between">
+                            <p class="text-left">Office of Information Technology</p>
+                            <p class="text-right">Technology Consultant</p>
+                        </li>
+                        <li class="inline-flex justify-between">
+                            <p class="text-left">Intramural Basketball</p>
+                            <p class="text-right">The Best 6'2" Center</p>
+                        </li>
+                    </ul>
+            </div>
+
+            <!-- <button id="drop" data-dropdown-toggle="stuff">Button</button>
+            <div id="stuff" class="hidden">
+                <p>Hello</p>
+            </div> -->
         </div>
 
     </div>
