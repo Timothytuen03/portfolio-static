@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Background</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./output.css"></head>
+<body class="font-montserrat" style="background-image: linear-gradient( to bottom right, #727a7a, #2C3333)">
+    <header>
+        <nav class="">
+            <div class="flex flex-wrap justify-end p-3 w-full">
+                <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" style="background-color: #E2EFDE;" aria-controls="navbar-default" aria-expanded="false" id="hamburger-nav">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                    <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
+                        <!-- bg-gray-50 md:bg-white dark:bg-gray-800 md:dark:bg-gray-800 dark:border-gray-700 -->
+                        <li>
+                            <a href="/index.html" class="block rounded md:bg-transparent" style="color: #CBE4DE;">Home</a>
+                        </li>
+                        <li>
+                            <a href="./about.html" class="block rounded md:bg-transparent" style="color: #CBE4DE;">About Me</a>
+                        </li>
+                        <li>
+                            <a href="./projects.html" class="block rounded md:bg-transparent" style="color: #CBE4DE;">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block  rounded md:bg-transparent" style="color: #CBE4DE;" aria-current="page">Education</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div style="color: #CBE4DE;">
+        <h1 class="text-4xl underline text-center">My Educational Background</h1>
+        <div class="grid grid-cols-2 grid-rows-3 m-10 gap-5 leading-10 border-solid border-2  text-sm" id="education-background">
+            <!-- Degree Info Start -->
+            <div class="row-start-1 col-start-1 self-center pl-5" id="my-degree">
+                <h1 class="text-center">My Degree</h1>
+                <ul class="flex flex-col">
+                    <li class="inline-flex justify-between">
+                        <p>Institute</p>
+                        <p>Rutgers Business School - New Brunswick</p>
+                    </li>
+                    <li class="inline-flex justify-between">
+                        <p>Degree Type</p>
+                        <p>Bachelors</p>
+                    </li>
+                    <li class="inline-flex justify-between">
+                        <p>Majors</p>
+                        <p> Comp. Sci. & BAIT (Business Analytics/IT)</p>
+                    </li>
+                    <li class="inline-flex justify-between">
+                        <p>GPA</p>
+                        <p>3.948 / 4.0</p>
+                    </li>
+                    <li class="inline-flex justify-between">
+                        <p>Anticipated Grad. Date</p>
+                        <p>May 2025 (Curr. Junior)</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="row-start-1 col-start-2 self-center">
+                <img src="./img/rutgers.jpeg" alt="Rutgers University" class="w-8/12 h-auto m-auto self-center">
+            </div>
+            <!-- Degree Info End -->
+            <!-- Relevant Courses Start -->
+            <div class="row-start-2 col-start-1 self-center">
+                <img src="./img/computer-science.jpg" alt="Computer Science" class="w-8/12 h-auto m-auto self-center">
+            </div>
+            <div class="col-start-2 self-center" id="relevant-courses">
+                <h1 class="text-center">Relevant Courses</h1>
+                <div class="max-h-min">
+                        
+                </div>
+                <ul class="flex flex-col text-center">
+                    <li class="self-center">
+                        <p data-popover-target="ds_class" class="hover:bg-gray-300 hover:text-black">Data Structures (Java, OOP, VSCode) - Final Grade: A</p>
+                        <div data-popover id="ds_class" class="max-w-md text-center bg-white rounded-lg shadow-sm absolute z-10 transition-opacity opacity-0 duration-300 invisible" style="background-color: #2E4F4F;">
+                            <p class="px-3">Learned the uses of various Data Structures, such as BST, Heap, Stack, etc. using the Java language</p>
+                        </div>
+                    </li>
+                    <li class="self-center">
+                        <p data-popover-target="ca_class" class="hover:bg-gray-300 hover:text-black">Computer Architecture (C, Linux/Unix, Assembly, Binary, Memory) - Final Grade: A</p>
+                        <div data-popover id="ca_class" class="max-w-md text-center bg-white rounded-lg shadow-sm absolute z-10 transition-opacity opacity-0 duration-300 invisible" style="background-color: #2E4F4F;">
+                            <p class="">Implemented projects using the C programmng language. Learned and utilized bit manipulation, binary, caches, and memory. Also used Assembly (Bomb Lab Assignment) and Digital Logic</p>
+                        </div>
+                    </li>
+                    <li class="self-center">
+                        <p data-popover-target="algos_class" class="hover:bg-gray-300 hover:text-black">Design & Analysis of Computer Algorithms - Currently Taking</p>
+                        <div data-popover id="algos_class" class="max-w-md text-center bg-white rounded-lg shadow-sm absolute z-10 transition-opacity opacity-0 duration-300 invisible" style="background-color: #2E4F4F;">
+                            <p class="">Learn and Analyze useful algorithms, finding how they work, their uses, principles, and complexity</p>
+                        </div>
+                    </li>
+                    <li class="self-center">
+                        <p data-popover-target="prinprog_class" class="hover:bg-gray-300 hover:text-black">Principles of Programming Languages - Currently Taking</p>
+                        <div data-popover id="prinprog_class" class="max-w-md text-center bg-white rounded-lg shadow-sm absolute z-10 transition-opacity opacity-0 duration-300 invisible" style="background-color: #2E4F4F;">
+                            <p class="">The study of common concepts familiar to programming languages, such as language paradigms such as logic, OOP, functional programming, etc.</p>
+                        </div>
+                    </li>
+                    <li class="self-center">
+                        <p data-popover-target="sm_class" class="hover:bg-gray-300 hover:text-black">Statistical Methods (Excel) - Final Grade: A</p>
+                        <div data-popover id="sm_class" class="max-w-md text-center bg-white rounded-lg shadow-sm absolute z-10 transition-opacity opacity-0 duration-300 invisible" style="background-color: #2E4F4F;">
+                            <p class="">Apply quantitative modeling techniques to data in order to construct and analyze statistical models. Includes variances, regression, etc.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Relevant Courses End -->
+
+            <!-- Involvement/Clubs Start -->
+            <div class="row-start-3 pl-5 self-center" id="involvement">
+                    <h1 class="text-center">My Involvement</h1>
+                        <ul class="flex flex-col">
+                            <li class="inline-flex justify-between">
+                                <p class="text-left">Business Information Technology Society</p>
+                                <p class="text-right">Web Development Team Member</p>
+                            </li>
+                            <li class="inline-flex justify-between">
+                                <p class="text-left">Rutgers Dance Marathon</p>
+                                <p class="text-right">Assistant Director of Finance</p>
+                            </li>
+                            <li class="inline-flex justify-between">
+                                <p class="text-left">Office of Information Technology</p>
+                                <p class="text-right">Technology Consultant</p>
+                            </li>
+                            <li class="inline-flex justify-between">
+                                <p class="text-left">Intramural Basketball</p>
+                                <p class="text-right">The Best 6'2" Center You'll Ever Witness</p>
+                            </li>
+                        </ul>
+            </div>
+            <div class="row-start-3 col-start-2 self-center">
+                <img src="./img/IMG_5898 Small.jpeg" alt="RUDM" class="w-auto h-5/6 m-auto self-center">
+            </div>
+            <!-- Involvement/Clubs End -->
+        </div>
+
+    </div>
+
+    <script src="../src/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.js"></script>
+</body>
+</html>
